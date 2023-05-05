@@ -1,0 +1,26 @@
+{
+	"name": "SM_mini_program",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "cross-env NODE_ENV=development vue-cli-service serve",
+		"build": "cross-env NODE_ENV=production vue-cli-service build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"uview-ui": "^2.0.31",
+		"vuex": "^4.1.0"
+	},
+	"devDependencies": {
+		"babel-register": "^6.26.0",
+		"cross-env": "^7.0.3",
+		"dotenv-webpack": "^8.0.1",
+		"sass": "^1.62.0",
+		"sass-loader": "^10.4.1",
+		"webpack": "^5.82.0"
+	}
+}

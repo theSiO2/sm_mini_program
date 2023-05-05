@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text><button><navigator url="../../login/index/index.vue">登录页</navigator></button></view></view>
